@@ -1,0 +1,222 @@
+body{
+	font: 15px Arial, Helvetica, sans serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;	
+}
+	
+/* Estilos globales */
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.ul{
+	margin:  0;
+	padding: 0;
+}
+
+/* Encabezado */
+header{
+	background-color: #1c549f;
+	color: #fff;
+	padding-top: 30px;
+	min-height:  100px;
+	border-bottom: 10px solid #000000;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+	color: #fff;
+	font-weight: bold;
+}
+
+header hover{
+	color: #ccc;
+	font-weight: bold;
+}
+/* Cabecera con imagen */
+
+#cabecera{
+	min-height: 900px;
+	background: url('../img/inventario.jpg') no-repeat 0 -5px;
+	text-align: right;
+	color: #000000;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+form #agregarProducto{
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width:max-content;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color:#A3E4D7;
+    text-align: left;  
+    display: block;
+}
+
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width:max-content;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color:#A3E4D7;
+    text-align: left;  
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinear campos de texto multilínea con sus labels */
+    vertical-align: top;
+
+    /* Para dar suficiente espacio para escribir texto */
+    height: 5em;
+
+    /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+        No funciona en todos los navegadores */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+    text-align:center;
+    
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+    text-align:center;
+
+}
+
+/*Botones del home^*/
+
+.buttonhome {
+	margin-bottom:170px;
+	padding: 100px;
+	width: 100%;
+	height: 100%;
+	min-height: 1000px;
+	color: #000000;
+	float: left;
+	height: 50px;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+.clienteEmpleado {
+	margin-bottom:1700px;
+	padding: 100px;
+	width: 100%;
+	height: 100%;
+	min-height: 1000px;
+	color: #000000;
+	float: none;
+	height: 50px;
+	font-size: 50px;
+	font-weight: bold;
+        margin-left:8em;
+        
+        
+
+}
+/* tabla de busqueda usuario*/
+
+#tabla_busqueda_usuarios{
+    
+    font-family: Arial;
+    background-color: gainsboro;
+    width: 100%;
+    padding: 20px;
+    border: solid;
+
+}
+
+#tabla_crud{
+    
+     font-family: Arial;
+    background-color: gainsboro;
+    width: 100%;
+    padding: 20px;
+    border: solid;
+
+   
+}
+
+.hp{
+    background: blue;
+    border: solid 1px;  
+    position: center;
+    
+    
+    
+}
+    
